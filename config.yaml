@@ -16,7 +16,7 @@ markup:
 
 params:
   BookToC: true
-  BookLogo: /icons/favicon-196x196.png
+  BookLogo: /icons/favicon-76x76.png
   BookSection: docs # * or / all pages
   BookRepo: https://github.com/pscarey/pscarey.github.io/
   BookEditPath: edit/release/content
