@@ -1,4 +1,14 @@
 baseURL = "https://pscarey.github.io/"
 languageCode = "en-us"
 title = "Recipes"
-theme = "dot-hugo-documentation-theme"
+theme = "book"
+
+# https://github.com/alex-shpak/hugo-book
+[params]
+    BookLogo = '/icons/apple-touch-icon-152x152.png'
+    # BookMenuBundle = '/menu'
+    BookSection = 'docs'
+    BookRepo = 'https://github.com/pscarey/pscarey.github.io'
+    BookEditPath = 'edit/release/pscarey.github.io/content'
+    BookSearch = true
+    BookComments = false
