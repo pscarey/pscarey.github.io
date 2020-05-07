@@ -1,0 +1,28 @@
+baseURL: https://pscarey.github.io
+title: Recipes
+theme: book
+
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+params:
+  BookToC: true
+  BookLogo: /icons/favicon-196x196.png
+  BookSection: docs # * or / all pages
+  BookRepo: https://github.com/pscarey/pscarey.github.io/
+  BookEditPath: edit/release/content
+  BookDateFormat: "January 2, 2006"
+  BookSearch: true
+  BookComments: false
+  BookPortableLinks: false
+  BookServiceWorker: true
+
