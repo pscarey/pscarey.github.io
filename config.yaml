@@ -19,7 +19,7 @@ params:
   BookLogo: /icons/favicon-96x96.png
   BookSection: docs # * or / all pages
   BookRepo: https://github.com/pscarey/pscarey.github.io
-  BookEditPath: edit/release/content/docs
+  BookEditPath: edit/release/content/
   BookDateFormat: "January 2, 2006"
   BookSearch: true
   BookComments: false
